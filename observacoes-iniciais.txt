@@ -1,0 +1,23 @@
+A página principal está, de forma mais abrangente, dividida nos seguintes focos:
+
+1 - Cabeçalho:
+  - Logo
+  - Links internos
+
+2 - Conteúdo Principal:
+  - Breve apresentação
+  - Exposição
+  - Mais detalhes
+  - Apoiadores
+  - Avaliações
+  - Garantias
+
+3 - Rodapé:
+  - Contatos
+  - Links para mais informações
+
+
+Comportamentos notados:
+- Em, apróximadamente, 800px, a página principal começa
+a receber ajustes dados para aparelhos reduzidos, como:
+coluna unica, espaçamentos e textos menores.
