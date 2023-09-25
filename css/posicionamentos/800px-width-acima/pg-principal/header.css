@@ -1,0 +1,17 @@
+header {
+    display: grid;
+    grid-template-columns: auto minmax(auto, 1200px) auto;
+    padding: 20px;
+}
+
+.header_nav, .nav_ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav_a {
+    display: block;
+    padding: 20px 0;
+}

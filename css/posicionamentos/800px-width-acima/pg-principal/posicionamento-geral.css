@@ -1,0 +1,9 @@
+@import "./header.css";
+
+.grid-area-center {
+    grid-column: 2/3;
+}
+
+.temp-oculto {
+    display: none;
+}
