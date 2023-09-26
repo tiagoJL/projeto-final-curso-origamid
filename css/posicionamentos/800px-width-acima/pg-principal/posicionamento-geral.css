@@ -1,5 +1,10 @@
 @import "./header.css";
 
+.grid-3col-maxwidth-1200px {
+    display: grid;
+    grid-template-columns: auto minmax(auto, 1200px) auto;
+}
+
 .grid-area-center {
     grid-column: 2/3;
 }
