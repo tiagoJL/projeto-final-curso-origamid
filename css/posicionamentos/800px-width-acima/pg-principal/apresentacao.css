@@ -1,6 +1,7 @@
 #apresentacao {
-    padding: 20px;
-    background-color: var(--cor-12);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto repeat(2, minmax(auto, 600px)) auto;
 }
 
 #apresentacao .seciton_all {
