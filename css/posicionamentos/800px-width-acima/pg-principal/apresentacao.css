@@ -18,8 +18,10 @@
 }
 
 #apresentacao .wrap_img_decorative {
-    width: 50%;
+    width: 100%;
+    min-width: 300px;
     position: relative;
+    grid-column: 3/4;
 }
 
 #apresentacao h1 {
