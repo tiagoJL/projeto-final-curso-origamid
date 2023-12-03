@@ -1,0 +1,75 @@
+#exposicao {
+    margin-top: 100px;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: auto repeat(2, minmax(auto, 600px)) auto;
+    overflow-x: auto;
+}
+
+#exposicao h1 {
+    font-size: 3.5rem;
+    max-width: 15ch;
+    grid-column: 2/4;
+}
+
+.wrap-cards {
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    overflow-x: scroll;
+    grid-column: 2/4;
+    max-width: 100%;
+}
+
+.wrap-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.wrap-cards .card_img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 300px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card .card_title {
+    font-weight: bold;
+    position: relative;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    padding-left: 10px;
+    transition-property: margin-left;
+    transition-duration: 150ms;
+}
+
+.card_title::before{
+    position: absolute;
+    content: "";
+    left: -15px;
+    width: 30px;
+    height: 10px;
+    top: 8px;
+    z-index: -10;
+    transition-property: left;
+    transition-duration: 150ms;
+}
+
+.card:hover .card_title {
+    margin-left: 25px;
+}
+
+.card:hover .card_title::before {
+    left: -25px;
+}
+
+.card .card_preco {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
