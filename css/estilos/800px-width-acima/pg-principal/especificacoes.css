@@ -1,0 +1,46 @@
+#especificacoes .section_desc {
+    color: var(--cor-5);
+}
+
+
+#especificacoes .section_span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#especificacoes h2 {
+    text-transform: lowercase;
+    color: var(--cor-0);
+    font-size: 3rem;
+    max-width: 20ch;
+}
+
+#especificacoes .section_desc > p {
+    font-size: 1.5rem;
+    max-width: 30ch;
+}
+
+#especificacoes .section_desc_a {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-bottom: 4px solid;
+    border-color: var(--cor-p1);
+    color: var(--cor-p1);
+}
+
+#especificacoes .section_desc_a:hover {
+    border-color: var(--cor-0);
+    color: var(--cor-0);
+}
+
+.box_funcionalidades h3 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: var(--cor-0);
+}
+
+.box_funcionalidades p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    max-width: 25ch;
+}
