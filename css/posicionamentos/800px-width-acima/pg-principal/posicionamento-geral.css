@@ -3,17 +3,21 @@
 @import "./exposicao.css";
 @import "./especificacoes.css";
 
-.grid-3col-maxwidth-1200px {
+.grid-container {
     display: grid;
-    grid-template-columns: auto minmax(auto, 1200px) auto;
+    grid-template-columns: auto repeat(2, minmax(auto, 600px)) auto;
 }
 
-.grid-area-center {
+.grid-item-center--all {
+    grid-column: 2/4;
+}
+
+.grid-item-center--main {
     grid-column: 2/3;
 }
 
-.grid-area-all {
-    grid-column: 1/-1;
+.grid-item-center--secondary {
+    grid-column: 3/4;
 }
 
 .temp-oculto {
