@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./apresentacao.css";
 @import "./exposicao.css";
+@import "./especificacoes.css";
 
 .grid-3col-maxwidth-1200px {
     display: grid;
