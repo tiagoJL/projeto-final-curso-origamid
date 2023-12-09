@@ -6,6 +6,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto repeat(2, minmax(auto, 600px)) auto;
+    gap: 25px;
 }
 
 .grid-item-center--all {

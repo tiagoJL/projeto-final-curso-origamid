@@ -1,10 +1,7 @@
 #especificacoes {
-    display: grid;
     background-color: var(--cor-12);
-    grid-template-columns: auto repeat(2, minmax(auto, 600px)) auto;
     min-height: min-content;
-    gap: 20px;
-    padding: 60px 20px;
+    padding: 60px 0;
     margin: 200px 0;
     position: relative;
 }
@@ -13,13 +10,8 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    grid-column: 2/3;
-    gap: 20px;
+    gap: 25px;
     width: 100%;
-}
-
-#especificacoes .wrap_img_decorative {
-    grid-column: 3/4;
 }
 
 #especificacoes .section_span {
@@ -29,7 +21,6 @@
 
 #especificacoes h2 {
     text-transform: lowercase;
-    color: var(--cor-0);
     font-size: 3rem;
     max-width: 20ch;
 }

@@ -1,8 +1,5 @@
 #exposicao {
     margin-top: 100px;
-    display: grid;
-    padding: 20px;
-    grid-template-columns: auto repeat(2, minmax(auto, 600px)) auto;
     overflow-x: auto;
 }
 
