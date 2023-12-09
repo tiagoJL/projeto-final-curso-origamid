@@ -24,3 +24,78 @@
 .temp-oculto {
     display: none;
 }
+
+.section_desc {
+    display: flex;
+    position: relative;
+    gap: 25px;
+    flex-direction: column;
+    width: 100%;
+    min-width: 300px;
+}
+
+.wrap_img_decorative {
+    width: 100%;
+    min-width: 300px;
+    position: relative;
+}
+
+.wrap-cards {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.wrap-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.wrap-cards .card_img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 300px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card .card_title {
+    font-weight: bold;
+    position: relative;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    padding-left: 10px;
+    transition-property: margin-left;
+    transition-duration: 150ms;
+}
+
+.card_title::before{
+    position: absolute;
+    content: "";
+    left: -15px;
+    width: 30px;
+    height: 10px;
+    top: 8px;
+    z-index: -10;
+    transition-property: left;
+    transition-duration: 150ms;
+}
+
+.card:hover .card_title {
+    margin-left: 25px;
+}
+
+.card:hover .card_title::before {
+    left: -25px;
+}
+
+.card .card_preco {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}

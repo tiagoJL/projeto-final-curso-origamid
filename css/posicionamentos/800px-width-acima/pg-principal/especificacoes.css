@@ -1,17 +1,7 @@
 #especificacoes {
-    background-color: var(--cor-12);
     min-height: min-content;
     padding: 60px 0;
     margin: 200px 0;
-    position: relative;
-}
-
-#especificacoes .section_desc {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    gap: 25px;
-    width: 100%;
 }
 
 #especificacoes .section_span {
@@ -27,7 +17,7 @@
 
 #especificacoes .section_desc > p {
     font-size: 1.5rem;
-    max-width: 30ch;
+    max-width: 40ch;
 }
 
 #especificacoes .section_desc_a {
@@ -37,9 +27,10 @@
     margin-bottom: 60px;
 }
 
-#especificacoes .box_funcionalidades {
+.box_funcionalidades {
     display: flex;
-    gap: 30px;
+    gap: 25px;
+    width: 100%;
 }
 
 .box_funcionalidades h3 {
@@ -48,15 +39,10 @@
 
 .box_funcionalidades .funcionalidades {
     display: flex;
+    min-width: 50px;
     flex-direction: column;
     gap: 10px;
     align-items: start;
-}
-
-#especificacoes .wrap_img_decorative {
-    position: relative;
-    min-width: 300px;
-    width: 100%;
 }
 
 #especificacoes  .section_img_decorativa {

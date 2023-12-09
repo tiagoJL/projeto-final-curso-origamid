@@ -1,26 +1,6 @@
-#apresentacao .seciton_all {
-    display: flex;
-}
-
-#apresentacao .section_desc {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    width: 100%;
-    min-width: 300px;
-    grid-column: 2/3;
-}
-
-#apresentacao .wrap_img_decorative {
-    width: 100%;
-    min-width: 300px;
-    position: relative;
-    grid-column: 3/4;
-}
-
 #apresentacao h1 {
     font-size: 4.0rem;
-    max-width: 10ch;
+    max-width: 20ch;
 }
 
 #apresentacao p {

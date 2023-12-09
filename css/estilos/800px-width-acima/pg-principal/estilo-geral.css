@@ -2,3 +2,15 @@
 @import "./apresentacao.css";
 @import "./exposicao.css";
 @import "./especificacoes.css";
+
+.card .card_title {
+    background-color: white;
+}
+
+.card_title::before{
+    background-color: var(--cor-p1);
+}
+
+.card .card_preco {
+    color: var(--cor-8);
+}
