@@ -1,0 +1,7 @@
+#apoiadores h2 {
+    font-size: 4rem;
+}
+
+.apoiadores:nth-child(-n+7) {
+    border: 2px solid var(--cor-4);
+}
