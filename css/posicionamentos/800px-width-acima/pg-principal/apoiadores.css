@@ -1,0 +1,26 @@
+#apoiadores .box_apoiadores {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 300px));
+}
+
+#apoiadores .apoiadores {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+.apoiadores img {
+    max-width: 80%;
+    min-width: 120px;
+    height: auto;
+}
+
+.apoiadores:nth-child(-n+7) {
+    border-top: none;
+    border-left: none;
+    border-top: none;
+}
+
+.apoiadores:nth-child(4) {
+    border-right: none;
+}

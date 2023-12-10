@@ -2,6 +2,7 @@
 @import "./apresentacao.css";
 @import "./exposicao.css";
 @import "./especificacoes.css";
+@import "./apoiadores.css";
 
 .grid-container {
     display: grid;
